@@ -1,7 +1,30 @@
 aid: rome-tools
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rome-tools.png
 name: Rome Tools
-description: Rome Tools is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rome Tools, Inc. was the company behind Rome, a unified, Rust-based developer
+  toolchain for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS, intended
+  to consolidate the roles of a formatter, linter, compiler, and bundler
+  (replacing tools like Babel, ESLint, webpack, and Prettier) into a single
+  fast tool. Rome shipped as a command-line tool and VS Code extension rather
+  than as a hosted web service, so it has no REST/HTTP API, OpenAPI, webhook,
+  or event surface. The project's GitHub repository (github.com/rome/tools) was
+  archived on 2026-07-21 as read-only, the rome.tools domain no longer resolves,
+  and the effort has been succeeded by the community-maintained Biome project
+  (biomejs.dev). Rome Tools was surfaced as a portfolio company of bloomberg-beta
+  and added to the API Evangelist network as a stub; enrichment confirms it is a
+  defunct open-source CLI toolchain with no API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/rome-tools/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,34 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-successor: biome
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- JavaScript
+- TypeScript
+- Developer Tools
+- Toolchain
+- Linter
+- Formatter
+- CLI
+- Open Source
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/rome
+- type: SourceCode
+  url: https://github.com/rome/tools
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
