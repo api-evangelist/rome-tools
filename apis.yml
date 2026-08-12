@@ -49,6 +49,9 @@ tags:
 - Open Source
 apis: []
 common:
+- type: License
+  name: MIT
+  url: https://github.com/rome/tools/blob/main/LICENSE
 - type: GitHubOrganization
   url: https://github.com/rome
 - type: SourceCode
