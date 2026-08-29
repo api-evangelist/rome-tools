@@ -1,4 +1,16 @@
 aid: rome-tools
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -59,6 +71,14 @@ tags_raw:
 - Open Source
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/rome/tools/issues
+- type: Releases
+  url: https://github.com/rome/tools/releases
+- type: CodeOfConduct
+  url: https://github.com/rome/tools/blob/main/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/rome/tools/blob/main/CONTRIBUTING.md
 - type: License
   name: MIT
   url: https://github.com/rome/tools/blob/main/LICENSE
