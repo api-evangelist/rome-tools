@@ -44,7 +44,7 @@ x-status: defunct
 x-successor: biome
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - JavaScript
@@ -55,6 +55,7 @@ tags:
 - Formatter
 - CLI
 - Open-Source
+- Defunct
 tags_raw:
 - Company
 - JavaScript
@@ -65,6 +66,7 @@ tags_raw:
 - Formatter
 - CLI
 - Open Source
+- Defunct
 apis: []
 common:
 - type: IssueTracker
