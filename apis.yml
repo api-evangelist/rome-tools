@@ -54,7 +54,7 @@ tags:
 - Linter
 - Formatter
 - CLI
-- Open-Source
+- Open Source
 - Defunct
 tags_raw:
 - Company
@@ -67,6 +67,7 @@ tags_raw:
 - CLI
 - Open Source
 - Defunct
+- Open-Source
 apis: []
 common:
 - type: IssueTracker
